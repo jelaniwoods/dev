@@ -33,6 +33,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 gem 'seed_dump'
+gem 'google-api-client'
 group :production do
   gem 'pg'
 end
